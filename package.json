@@ -1,0 +1,12 @@
+{
+	"name": "project-child",
+	"title": "Child",
+	"version": "1.0.0",
+	"private": true,
+	"homepage": "https://github.com/dominiccarrington/CS310-Child",
+	"main": "gulpfile.js",
+	"license": "GPL-3.0-or-later",
+	"devDependencies": {
+
+	}
+}
