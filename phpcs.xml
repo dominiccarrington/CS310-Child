@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ruleset>
+
+    <file>uninstall.php</file>
+    <file>index.php</file>
+    <file>child.php</file>
+    <file>includes</file>
+
+    <arg name="basepath" value="."/>
+    <arg name="colors"/>
+
+    <rule ref="WordPress">
+
+    </rule>
+
+</ruleset>

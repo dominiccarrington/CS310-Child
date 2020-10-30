@@ -15,5 +15,9 @@
 	"require-dev": {
     "wp-coding-standards/wpcs": "*",
     "dealerdirect/phpcodesniffer-composer-installer": "*"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "sniff": "vendor/bin/phpcs"
   }
 }
