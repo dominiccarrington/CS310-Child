@@ -128,8 +128,8 @@ class Child_Settings {
 			array(
 				'location'    => 'options', // Possible settings: options, menu, submenu.
 				'parent_slug' => 'options-general.php',
-				'page_title'  => __( 'Plugin Settings', 'child' ),
-				'menu_title'  => __( 'Plugin Settings', 'child' ),
+				'page_title'  => __( 'Child Settings', 'child' ),
+				'menu_title'  => __( 'Child Settings', 'child' ),
 				'capability'  => 'manage_options',
 				'menu_slug'   => $this->parent->_token . '_settings',
 				'function'    => array( $this, 'settings_page' ),
