@@ -1,6 +1,7 @@
 {
   "intelephense.environment.includePaths": [
     "../../../wp-includes",
-    "../../../wp-admin/includes"
+    "../../../wp-admin/includes",
+    "../wps/vendor"
   ]
 }

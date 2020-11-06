@@ -138,7 +138,18 @@ class Child {
 		// Handle localisation.
 		$this->load_plugin_textdomain();
 		add_action( 'init', array( $this, 'load_localisation' ), 0 );
+
+		add_action( 'init', array( $this, 'init' ), 0 );
 	} // End __construct ()
+
+	/**
+	 * Initialization of random stuff
+	 *
+	 * @return void
+	 */
+	public function init() {
+		add_option( $this->_token . '_plugin_parent_token' );
+	}
 
 	/**
 	 * Register post type function.
